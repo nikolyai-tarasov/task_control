@@ -1,0 +1,7 @@
+
+line-length = 120
+select = ["E", "F", "W", "UP", "I", "B", "RUF"]
+ignore = ["E501", "W503"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["my_app"]
